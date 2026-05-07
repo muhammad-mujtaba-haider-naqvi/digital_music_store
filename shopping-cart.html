@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Digital Music Store</title>
+    <link rel="stylesheet" href="../css/shopping-cart.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Digital Music Store</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product-list.html">Shop</a></li>
+                <li><a href="shopping-cart.html">Cart</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Shopping Cart</h2>
+        
+        <div class="cart-container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Album Title 1</td>
+                        <td>$9.99</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$9.99</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Album Title 2</td>
+                        <td>$12.99</td>
+                        <td><input type="number" value="2" min="1"></td>
+                        <td>$25.98</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <aside class="cart-summary">
+                <div class="summary-card">
+                    <h3>Order Summary</h3>
+                    <div class="summary-item">
+                        <span>Subtotal:</span>
+                        <span>$35.97</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Tax (10%):</span>
+                        <span>$3.60</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Shipping:</span>
+                        <span>Free</span>
+                    </div>
+                    <hr>
+                    <div class="summary-item total">
+                        <span>Total:</span>
+                        <span>$39.57</span>
+                    </div>
+                    <button class="checkout-btn">Proceed to Checkout</button>
+                    <button class="continue-btn">Continue Shopping</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Digital Music Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
