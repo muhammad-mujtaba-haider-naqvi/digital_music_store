@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Digital Music Store</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Digital Music Store</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product-list.html">Shop</a></li>
+                <li><a href="shopping-cart.html">Cart</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="signup-container">
+            <div class="signup-card">
+                <h2>Create Account</h2>
+                
+                <form class="signup-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="••••••••" required>
+                        <p class="password-hint">Min. 8 characters with letters and numbers</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="••••••••" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                    </div>
+                    
+                    <div class="terms-checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+                    </div>
+                    
+                    <div class="terms-checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to our newsletter</label>
+                    </div>
+                    
+                    <button type="submit" class="signup-btn">Create Account</button>
+                </form>
+                
+                <div class="signin-link">
+                    <p>Already have an account? <a href="signin.html">Sign in here</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Digital Music Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
