@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Digital Music Store</title>
+    <link rel="stylesheet" href="../css/user-profile.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Digital Music Store</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product-list.html">Shop</a></li>
+                <li><a href="shopping-cart.html">Cart</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="profile-container">
+            <aside class="profile-sidebar">
+                <div class="profile-avatar">
+                    <img src="../assets/avatar.jpg" alt="User Avatar">
+                </div>
+                <h2>John Doe</h2>
+                <p class="profile-email">john@example.com</p>
+                
+                <nav class="profile-nav">
+                    <ul>
+                        <li><a href="#profile" class="active">Profile Info</a></li>
+                        <li><a href="#orders">Orders</a></li>
+                        <li><a href="#wishlist">Wishlist</a></li>
+                        <li><a href="#settings">Settings</a></li>
+                        <li><a href="#logout">Logout</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <div class="profile-content">
+                <section id="profile" class="profile-section">
+                    <h3>Personal Information</h3>
+                    <div class="info-card">
+                        <div class="info-item">
+                            <label>Full Name:</label>
+                            <span>John Doe</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Email:</label>
+                            <span>john@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Phone:</label>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Member Since:</label>
+                            <span>January 2024</span>
+                        </div>
+                        <button class="edit-btn">Edit Profile</button>
+                    </div>
+                </section>
+                
+                <section id="orders" class="profile-section">
+                    <h3>Recent Orders</h3>
+                    <div class="orders-list">
+                        <div class="order-item">
+                            <p><strong>Order #1001</strong> - January 15, 2024</p>
+                            <p>Status: <span class="status-delivered">Delivered</span></p>
+                            <button class="view-btn">View Details</button>
+                        </div>
+                        <div class="order-item">
+                            <p><strong>Order #1002</strong> - January 20, 2024</p>
+                            <p>Status: <span class="status-processing">Processing</span></p>
+                            <button class="view-btn">View Details</button>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="wishlist" class="profile-section">
+                    <h3>Wishlist</h3>
+                    <div class="wishlist">
+                        <div class="wishlist-item">
+                            <img src="../assets/album1.jpg" alt="Album">
+                            <p>Album Title 1</p>
+                            <p>$9.99</p>
+                        </div>
+                        <div class="wishlist-item">
+                            <img src="../assets/album2.jpg" alt="Album">
+                            <p>Album Title 2</p>
+                            <p>$12.99</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Digital Music Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
