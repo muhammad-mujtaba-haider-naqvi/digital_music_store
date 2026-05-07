@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Digital Music Store</title>
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Digital Music Store</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product-list.html">Shop</a></li>
+                <li><a href="shopping-cart.html">Cart</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="signin-container">
+            <div class="signin-card">
+                <h2>Sign In</h2>
+
+                <form class="signin-form">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <!-- FIX: Added the missing "Forgot password?" link below -->
+                    <div class="forgot-password">
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="signin-btn">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Digital Music Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
