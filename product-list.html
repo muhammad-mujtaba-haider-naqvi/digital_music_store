@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Digital Music Store</title>
+    <link rel="stylesheet" href="../css/product-list.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Digital Music Store</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product-list.html">Shop</a></li>
+                <li><a href="shopping-cart.html">Cart</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="products-container">
+            <aside class="filters">
+                <h3>Filters</h3>
+                <div class="filter-group">
+                    <label>Genre</label>
+                    <input type="checkbox"> Rock
+                    <input type="checkbox"> Pop
+                    <input type="checkbox"> Jazz
+                    <input type="checkbox"> Classical
+                </div>
+                <div class="filter-group">
+                    <label>Price Range</label>
+                    <input type="range" min="0" max="100">
+                </div>
+            </aside>
+            
+            <section class="products">
+                <h2>Music Albums</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="../assets/album1.jpg" alt="Album">
+                        <h4>Album Title</h4>
+                        <p>Artist Name</p>
+                        <p class="price">$9.99</p>
+                        <button class="add-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="../assets/album2.jpg" alt="Album">
+                        <h4>Album Title</h4>
+                        <p>Artist Name</p>
+                        <p class="price">$9.99</p>
+                        <button class="add-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Digital Music Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
