@@ -10,4 +10,4 @@ A web-based music store project built with HTML, CSS, and JavaScript.
 - **modules/** - Node modules (ignored)
 
 ## Description
-This project is a Digital Music Store website for the DevOps Git Flow assignment.
+This project is a Digital Music Store website for the Git Flow .
